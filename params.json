@@ -1,0 +1,28 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "resourceGroupName": {
+        "value": "iac-flask-app-rg"
+      },
+      "location": {
+        "value": "East US"
+      },
+      "acrName": {
+        "value": "iacflaskappacr"
+      },
+      "appServicePlanName": {
+        "value": "iac-flask-app-plan"
+      },
+      "webAppName": {
+        "value": "iac-flask-webapp"
+      },
+      "imageName": {
+        "value": "flask-app"
+      },
+      "imageTag": {
+        "value": "latest"
+      }
+    }
+  }
+  
